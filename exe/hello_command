@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "hello_command"
+require "haikunator"
+
+puts "#{Haikunator.haikunate(0, ' ')}, #{Haikunator.haikunate(0, ' ')}"
+
